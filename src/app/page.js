@@ -20,13 +20,13 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
-  <FocusState />
-  <FocusStateTimeline />
-  <TestimonialCarousel />
-  <CollaborationSection />
-  <TestimonialWide />
-  <FAQSection />
-  <QuoteCTA />
+        <FocusState />
+        <FocusStateTimeline />
+        <TestimonialCarousel />
+        <CollaborationSection />
+        <TestimonialWide />
+        <FAQSection />
+        <QuoteCTA />
       </main>
     </>
   );

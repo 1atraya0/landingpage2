@@ -8,7 +8,7 @@ export default function TestimonialWide() {
       <div className={styles.left}>
         <span className={styles.quoteMark}>&ldquo;</span>
         <p className={styles.quote}>
-          "I've seen a big difference in my willpower, especially when it comes to my relationship with food. And I will attribute this to my Daily Still practice - since nothing else has changed."
+          &quot;I&apos;ve seen a big difference in my willpower, especially when it comes to my relationship with food. And I will attribute this to my Daily Still practice - since nothing else has changed.&quot;
         </p>
         <p className={styles.name}>Harini | Artist and Actor</p>
       </div>

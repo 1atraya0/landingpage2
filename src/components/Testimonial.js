@@ -6,7 +6,7 @@ const Testimonial = () => (
       <div style={{ flex: '1 1 500px', minWidth: 320, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
         <div style={{ fontSize: 64, fontWeight: 700, marginBottom: 16 }}>&ldquo;</div>
         <div style={{ fontSize: '2rem', fontWeight: 400, marginBottom: 24, lineHeight: 1.2 }}>
-          "I've never been comfortable with silence. With PTSD and hyperanxiety, my mind was always racing... until I found Still."
+          &quot;I&apos;ve never been comfortable with silence. With PTSD and hyperanxiety, my mind was always racing... until I found Still.&quot;
         </div>
         <div style={{ fontSize: '1.1rem', color: '#ccc', fontWeight: 400 }}>
           Archana | National Record–Holding Freediver and Lawyer
