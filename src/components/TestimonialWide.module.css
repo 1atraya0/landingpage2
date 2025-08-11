@@ -1,0 +1,66 @@
+.wideSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0 60px 0;
+  gap: 2.5rem;
+  background: none;
+}
+.left {
+  flex: 1 1 500px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+.quoteMark {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.quote {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.name {
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.right {
+  flex: 1 1 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background: #222;
+  border-radius: 2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  max-width: 340px;
+  position: relative;
+}
+.cardImg {
+  border-radius: 1.2rem;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+}
+.logo {
+  font-family: serif;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 0.7rem;
+  letter-spacing: 0.1em;
+}

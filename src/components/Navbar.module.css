@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3vw;
+  background: rgba(255,255,255,0.7);
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(8px);
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+.cta {
+  background: #111;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.cta:hover {
+  background: #333;
+}

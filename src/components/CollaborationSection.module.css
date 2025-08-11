@@ -1,0 +1,81 @@
+.collabSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  background: #fff;
+  padding: 80px 3vw 40px 3vw;
+  gap: 2rem;
+}
+.left {
+  flex: 1 1 350px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.heading {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #111;
+}
+.desc {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 2.2rem;
+}
+.button {
+  background: #222;
+  color: #fff;
+  border: 2px solid #222;
+  border-radius: 2rem;
+  padding: 0.8rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+}
+.button:hover {
+  background: #fff;
+  color: #222;
+}
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex: 2 1 400px;
+  justify-content: flex-start;
+}
+.card {
+  background: #fafafa;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 240px;
+  max-width: 280px;
+}
+.cardImg {
+  border-radius: 1rem;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+}
+.cardLabel {
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.locationIcon {
+  font-size: 1.1rem;
+}
